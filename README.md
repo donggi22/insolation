@@ -24,7 +24,7 @@
 # 가상환경 및 의존성 설치
 
 ```
-conda create -n insolation python =3.10
+conda create -n insolation python=3.10
 conda activate insolation
 pip install -r requirements.txt
 ```
