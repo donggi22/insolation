@@ -20,3 +20,11 @@
 3. **모델 개발**: 간단하고 해석 가능한 모델부터 시작
 4. **성능 평가**: 실무에서 사용할 수 있는 수준인지 확인
 5. **예측 적용**: IoT 데이터에 모델 적용
+
+# 가상환경 및 의존성 설치
+
+```
+conda create -n insolation python =3.10
+conda activate insolation
+pip install -r requirements.txt
+```
