@@ -119,10 +119,11 @@ def run_comparison(sn):
     
     plt.figure(figsize=(15, 8))
     start_idx, end_idx = 400, 650
-    plt.plot(actual[start_idx:end_idx], label='Actual', color='black')
+    plt.plot(actual[start_idx:end_idx], label='Actual', color='black', linewidth=2)
     plt.plot(results['Baseline'][start_idx:end_idx], label='A. Baseline', alpha=0.5)
     plt.plot(results['Memory'][start_idx:end_idx], label='B. Memory', alpha=0.6)
     plt.plot(results['Edge'][start_idx:end_idx], label='C. Edge', color='red', linestyle='--')
+    plt.plot(pred_pers[start_idx:end_idx], label='D. Persistence', color='gray', linestyle=':', alpha=0.7)
     plt.legend(); plt.grid(True)
     plt.savefig(f'final_comparison_{sn}_weather.png'); plt.close()
 
