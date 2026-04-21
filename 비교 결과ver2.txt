@@ -1,0 +1,27 @@
+== [Weather Integrated Comparison] Inverter 3012 =====
+Initial DF rows: 23884
+Cleaned DF rows: 23860
+  Training A. Baseline (Weather)...
+  Training B. Memory-Enhanced (Weather)...
+  Training C. Edge-Tracking (Weather)...
+
+Performance Summary:
+      Model      MAE     RMSE       R2
+   Baseline 3.495083 5.322854 0.872501
+     Memory 3.112691 4.957079 0.889422
+       Edge 3.337211 5.241772 0.876355
+Persistence 6.622018 8.413277 0.681471
+
+===== [Weather Integrated Comparison] Inverter 5009 =====
+Initial DF rows: 23845
+Cleaned DF rows: 23821
+  Training A. Baseline (Weather)...
+  Training B. Memory-Enhanced (Weather)...
+  Training C. Edge-Tracking (Weather)...
+
+Performance Summary:
+      Model      MAE     RMSE       R2
+   Baseline 3.050695 4.663173 0.879191
+     Memory 2.870462 4.483844 0.888304
+       Edge 3.025343 4.793999 0.872317
+Persistence 5.941824 7.581663 0.680650
